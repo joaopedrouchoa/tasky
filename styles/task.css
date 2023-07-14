@@ -1,0 +1,12 @@
+div.task {
+  padding: 20px;
+  background-color: rgba(53, 162, 159, 0.2);
+}
+
+div.task > h2.task-title {
+  font-size: 18px;
+}
+
+div.task > p.task-description {
+  font-size: 14px;
+}

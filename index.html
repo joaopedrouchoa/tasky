@@ -5,13 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tasky - transformando tarefas em conquistas!</title>
   <link rel="stylesheet" href="./styles/global.css" type="text/css" />
-  <script src="./scripts/tasks.js"></script>
+  <link rel="stylesheet" href="./styles/task.css" type="text/css" />
 </head>
 <body>
-  <input id="title" type="text" name="title" placeholder="Insira o título da tarefa" />
-  <input id="description" type="text" name="description" placeholder="Insira a descrição da tarefa" />
-  <button onclick="createTask()">Criar task</button>
-  <!-- Lista de tarefas -->
-  <ul id="tasks"></ul> 
+  <header>
+    <div class="logo">
+      <img src="./assets/images/static/logos/tasky.png" width="32" height="32" />
+      <span>Tasky</span>
+    </div>
+    <button class="new-task">Adicionar Tarefa</button>
+  </header>
+  <main>
+    <!-- Tarefas -->
+    <section id="tasks"></section>
+  </main>
+  <footer>
+    <p>Tasky® - Todos os direitos reservados • 2023</p>
+  </footer>
+  <script src="./scripts/tasks.js"></script>
 </body>
 </html>
